@@ -1,0 +1,8 @@
+# rename all ModuleName
+defmodule ModuleName do
+  def main do
+    # TODO code here
+  end
+end
+
+ModuleName.main()
