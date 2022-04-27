@@ -1,6 +1,6 @@
 defmodule MultiClause do
   def main do
-    func(%{param: :kak3})
+    func(%{param: :kak})
   end
 
   def func(%{param: :kak1}) do
@@ -11,3 +11,7 @@ defmodule MultiClause do
     "func 2"
   end
 end
+
+
+
+MultiClause.main()
